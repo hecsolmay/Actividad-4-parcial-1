@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4</title>
+    <link rel="stylesheet" href="/css/formulario-1.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="titulo">
+
+        </div>
+
+        <fieldset>
+
+            <legend>Datos Personales</legend>
+            <div class="formulario">
+
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Inserta tu apellido" minlength="2"
+                        maxlength="100">
+                </div>
+
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Inserta tu Nombre" minlength="2"
+                        maxlength="100">
+                </div>
+
+
+                <div>
+                    <label for="fecha_nac">Fecha de Nacimiento:</label>
+                    <input type="date" name="" id="">
+                </div>
+
+                <div>
+                    <label for="ciudad_nac">Ciudad de nacimiento :</label>
+                    <input type="text" name="" id="" placeholder="Ciudad de nacimiento" minlength="2" maxlength="150">
+                </div>
+
+
+                <div>
+                    <label for="pais">Pais de Nacimiento:</label>
+                    <select name="pais" id="pais">
+                        <optgroup label="Escoge un país">
+                            <option selected="">...</option>
+                            <option value="México">México</option>
+                            <option value="España">España</option>
+                            <option value="Colimbia">Colimbia</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Venezuela">Venezuela</option>
+                            <option value="Cuba">Cuba</option>
+                            <option value="Brasil">Brasil</option>
+
+                        </optgroup>
+
+
+                    </select>
+                </div>
+
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos del pasaporte</legend>
+            <div class="formulario">
+                <div>
+                    <label for="Num_pasaporte">Numero de pasaporte:</label>
+                    <input type="number" name="Num_pasaporte" id="Num_pasaporte" placeholder="Numero de pasaporte"
+                        min="0">
+                </div>
+
+                <div>
+                    <label for="Pais_Pasaporte">Pais donde se ha pasado tu pasaporte</label>
+                    <select name="Pais_Pasaporte" id="Pais_Pasaporte">
+                        <optgroup label="País">
+                            <option selected="">...</option>
+                            <option value="">México</option>
+                            <option value="">España</option>
+                            <option value="">Colimbia</option>
+                            <option value="">Argentina</option>
+                            <option value="">Venezuela</option>
+                            <option value="">Cuba</option>
+                            <option value="">Brasil</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="fecha">
+                    <label for="Fecha_emision">Fecha emision:</label>
+                    <!-- <input type="date" name="emision" id="Fecha_emision"> -->
+                    <input type="date" name="" id="Fecha_emision">
+                </div>
+
+
+                <div class="fecha">
+                    <label for="Fecha_vencimiento">Fecha vencimiento:</label>
+                    <!-- <input type="date" name="emision" id="Fecha_emision"> -->
+                    <input type="date" name="" id="Fecha_vencimiento">
+                </div>
+
+            </div>
+        </fieldset>
+
+
+        <div class="division">
+            <button class="boton" onclick="location.href='/index.html'">Regresar</button>
+        </div>
+    </main>
+</body>
+
+</html>
